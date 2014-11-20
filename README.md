@@ -4,9 +4,9 @@ Bromanizer is automatic romanization system for Burmese text, based on [BGN/PCGN
 
 ## Usage ##
 
-See the tests for example.
+See the tests below for example usage.
 
-```
+```python
 self.assertEqual(Romanizer.romanize(BGN_PCGN, 'ကို'), "ko")
 self.assertEqual(Romanizer.romanize(BGN_PCGN, 'အက'), "aga")
 self.assertEqual(Romanizer.romanize(BGN_PCGN, 'မဒမ'), "madama")
@@ -34,3 +34,8 @@ self.assertEqual(Romanizer.romanize(BGN_PCGN, "သင်္ဘော"),"thinbaw"
 self.assertEqual(Romanizer.romanize(BGN_PCGN, "ဘင်္ဂလားအော်"), "bin-gala-aw")
 self.assertEqual(Romanizer.romanize(BGN_PCGN, "စင်္ကာပူ"),"sin-gabu")
 ```
+
+## TODO ##
+
+* Add MLCTS and IPA transliteraions.
+* Add more tests.
