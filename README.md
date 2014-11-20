@@ -1,6 +1,6 @@
 ## About ##
 
-Bromanizer is automatic romanization system for Burmese text, based on (BGN/PCGN 1970 Standard)[http://earth-info.nga.mil/gns/html/Romanization/Romanization_Burmese.pdf]
+Bromanizer is automatic romanization system for Burmese text, based on [BGN/PCGN 1970 Standard](http://earth-info.nga.mil/gns/html/Romanization/Romanization_Burmese.pdf)
 
 ## Usage ##
 
