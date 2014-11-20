@@ -1,6 +1,6 @@
 ## About ##
 
-Bromanizer is automatic romanization system for Burmese text, based on BGN/PCGN 1970 Standard.
+Bromanizer is automatic romanization system for Burmese text, based on (BGN/PCGN 1970 Standard)[http://earth-info.nga.mil/gns/html/Romanization/Romanization_Burmese.pdf]
 
 ## Usage ##
 
@@ -10,7 +10,6 @@ See the tests for example.
 self.assertEqual(Romanizer.romanize(BGN_PCGN, 'ကို'), "ko")
 self.assertEqual(Romanizer.romanize(BGN_PCGN, 'အက'), "aga")
 self.assertEqual(Romanizer.romanize(BGN_PCGN, 'မဒမ'), "madama")
-self.assertEqual(Romanizer.romanize(BGN_PCGN, 'သာငယ္'), 'thangè')
 self.assertEqual(Romanizer.romanize(BGN_PCGN, 'ပြစင်'), 'pyazin')
 self.assertEqual(Romanizer.romanize(BGN_PCGN, 'အကာ'), 'aga')
 self.assertEqual(Romanizer.romanize(BGN_PCGN, 'အိုဘဲ့'), 'obè')
